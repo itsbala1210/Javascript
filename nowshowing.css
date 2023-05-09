@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    font-family: teko;
+    background-image: url('805197.jpg');
+    background-size:cover;
+    height: 110vh;
+    color:rgb(252, 219, 179);
+  }
+  img{
+    height: 80%;
+    width: 80%;
+    border-radius: 3%;
+    box-shadow:0px 0px 10px cyan;
+    display: inline-block;
+  }
+  
+  .poster{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
+  
+  .about{
+    text-align: start;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  
+  img:hover{
+    height: 85%;
+    width: 85%;
+    margin-bottom: -7%;
+  }

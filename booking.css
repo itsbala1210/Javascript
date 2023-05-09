@@ -1,0 +1,74 @@
+body{
+    background-image: url('26663.jpg');
+    font-family: roboto mono;
+    color: #4a4848;
+  }
+  
+  form {
+      padding: 20px;
+      margin-bottom: 20px;
+    
+  }
+  h2{
+    text-align: center;  
+    font-family: teko;
+  }
+  form label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"],
+  form input[type="date"],
+  form input[type="password"],
+  form select {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    background-color: transparent;
+    color:rgb(112, 106, 106);
+    border-style: solid;
+  }
+  
+  form button {
+      background-color: #333;
+      color: #FFF;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+  }
+  
+  form button[type="reset"] {
+      background-color: #CCC;
+      color: #333;
+  }
+  
+  input[type="checkbox"]:checked {
+    background: rgb(81, 255, 0);
+  }
+  
+  input[type="checkbox"] {
+    appearance: none;
+    background: rgba(112, 106, 106,0.1);
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+  }
+  
+  p{
+    text-align: center;
+  }
+  
+  .screen-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .seats {
+    text-align: center;
+  }
